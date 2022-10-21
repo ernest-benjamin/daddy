@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive,sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 8rem;
+    border-radius: 30%;
+    margin-left: 20px;
+    
+}
+.container img{
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.flex-box1{
+    width: 270px;
+    height: 400px;
+    background-color:hsl(31, 77%, 52%) ;
+    color: white;
+    padding-left: 30px;
+    padding-right: 35px;
+    font-size: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.flex-box1 h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.flex-box2{
+    width: 270px;
+    height: 400px;
+    background-color:hsl(184, 100%, 22%) ;
+    color: white;
+    padding-left: 30px;
+    padding-right: 35px;
+    font-size: 15px;
+}
+.flex-box2 h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.flex-box3{
+    width: 270px;
+    height: 400px;
+    background-color:hsl(179, 100%, 13%) ;
+    color: white;
+    padding-left: 30px;
+    padding-right: 35px;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.flex-box3 h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.learn1{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+.learn2{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: hsl(184, 100%, 22%);
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+.learn3{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: hsl(179, 100%, 13%);
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+@media only screen and (max-width:1000px) {
+    
+    .container{
+        display: block;
+        width: 700px;
+        justify-content: center;
+     }
+}
+
